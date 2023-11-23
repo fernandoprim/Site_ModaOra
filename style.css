@@ -1,0 +1,127 @@
+html {  
+    scroll-behavior: smooth;  
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 64em;
+    margin: 0 auto;
+    color: #555;
+}
+
+h1,h2{
+    font-family: Viaoda Libre;
+}
+
+.hero{
+    background-color: #162028;
+    color: #425564;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fff;
+    margin: 0 6rem;
+    font-size: 2.4rem;
+}
+
+.header__ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header__ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 0 1em 0 0;
+    padding: 0.64em;
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: #425564;
+    letter-spacing: 0.15rem;
+    transition: color .3s linear;
+}
+
+.header__nav a:hover{
+    color: white;
+}
+
+#topImage{
+    border-radius: 0 0 15px 15px;
+}
+
+.main-container{
+    width: 56em;
+    margin: 8em auto ;
+}
+
+.main__title{
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.main__content{
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.main__cards{
+    display: flex;
+    gap: 3.2em;
+    justify-content: center;
+}
+
+.main__card img{
+    border-radius: 5px;
+}
+
+.main__cardTitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.main__cardContent{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#secondary{
+    margin: 8em auto 0;
+    background-color: #003d52;
+    height: 40em;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#secondary h2{
+    padding: 8rem 0 0 5rem;
+    text-align: left;
+    font-size: 2.8em;
+    width: 50rem;
+}
+
+#secondary p{
+    padding: 1rem 0 0 5rem;
+    text-align: left;
+    font-size: 1.1em;
+    width: 35rem;
+    line-height: 1.4em;
+}
+
+.rodape{
+    background-color: #0b171f;
+    text-align: center;
+    padding: 0.8em;
+    margin: 0;
+    color: #6f8597;
+}
